@@ -725,3 +725,282 @@ footer hr{
     }
 
 }
+/* =====================================
+   INNER PAGES COMMON STYLE
+===================================== */
+
+
+/* PAGE HERO */
+
+.page-hero{
+
+    height:55vh;
+
+    background:
+    linear-gradient(
+    rgba(0,0,0,.55),
+    rgba(0,0,0,.55)
+    ),
+    url("https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1600");
+
+    background-size:cover;
+
+    background-position:center;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    color:white;
+
+    margin-top:85px;
+
+}
+
+
+.page-hero h1{
+
+    font-size:60px;
+
+    margin-bottom:15px;
+
+}
+
+
+.page-hero p{
+
+    font-size:20px;
+
+    color:#eee;
+
+}
+
+
+
+
+/* =====================================
+   ABOUT PAGE
+===================================== */
+
+
+.about-story{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:60px;
+
+    align-items:center;
+
+}
+
+
+.about-image img{
+
+    height:450px;
+
+    object-fit:cover;
+
+    border-radius:25px;
+
+}
+
+
+.about-text h2{
+
+    font-size:40px;
+
+    color:var(--dark);
+
+    margin-bottom:20px;
+
+}
+
+
+.about-text p{
+
+    color:var(--gray);
+
+    margin-bottom:20px;
+
+    font-size:17px;
+
+}
+
+
+
+
+
+/* =====================================
+   PROPERTY DETAILS PAGE
+===================================== */
+
+
+.property-details{
+
+    display:grid;
+
+    grid-template-columns:1.2fr 1fr;
+
+    gap:50px;
+
+    align-items:center;
+
+}
+
+
+
+.details-image img{
+
+    height:550px;
+
+    object-fit:cover;
+
+    border-radius:25px;
+
+}
+
+
+
+.details-content h1{
+
+    font-size:42px;
+
+    color:var(--dark);
+
+}
+
+
+.location{
+
+    color:var(--gray);
+
+    margin:15px 0;
+
+}
+
+
+.price{
+
+    color:var(--primary);
+
+    font-size:38px;
+
+    margin:20px 0;
+
+}
+
+
+
+.details-info{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:15px;
+
+}
+
+
+
+.details-info div{
+
+    background:white;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+
+
+.details-info i{
+
+    color:var(--gold);
+
+    font-size:25px;
+
+}
+
+
+
+.details-info h3{
+
+    font-size:25px;
+
+}
+
+
+
+
+
+/* DESCRIPTION */
+
+.description p{
+
+    max-width:900px;
+
+    margin:auto;
+
+    text-align:center;
+
+    color:var(--gray);
+
+    font-size:18px;
+
+}
+
+
+
+
+
+
+/* AGENT CARD */
+
+
+.agent-card{
+
+    max-width:500px;
+
+    margin:auto;
+
+    background:white;
+
+    padding:40px;
+
+    text-align:center;
+
+    border-radius:20px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.1);
+
+}
+
+
+.agent-card h3{
+
+    font-size:30px;
+
+    color:var(--primary);
+
+}
+
+
+.agent-card p{
+
+    color:var(--gray);
+
+    margin:10px;
+
+}
